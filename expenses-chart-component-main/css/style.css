@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     font-size: 18px;
+     font-family: 'DM Sans', sans-serif;
+     background-color: hsl(27, 66%, 92%);
+}    
+.som{
+    margin-left: 3px;
+    margin-top: 2px;
+
+}
+.root1{
+    height: 100px;
+    width: 350px;
+    background-color:  hsl(10, 79%, 65%);
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bal h5{
+    width: 200px;
+    height: 20px;
+    margin-top: 5px;
+    color: hsl(27, 66%, 92%);
+}
+.bal h1{
+    margin-top: -40px;
+    margin-top: 5px;
+    color: white;
+}
+.root2{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: hsl(33, 100%, 98%);
+}
+
+.color1{
+    width: 30px;
+    height: 30px;
+}
+.graph{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.barre{
+    width: 10%;
+    border-radius: 0.2rem;
+}
+.monday{
+    height: 40px;
+    background-color: hsl(10, 79%, 65%);
+    
+}
+
+.tuesday{
+    height: 60px;
+    background-color: hsl(10, 79%, 65%);
+}
+
+.wed{
+    height: 100px;
+    background-color: hsl(186, 34%, 60%);
+}
+.thursday{
+    height: 55px;
+    background-color:  hsl(10, 79%, 65%);
+}
+.friday{
+    height: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.saturday{
+          height: 80px;
+          background-color: hsl(10, 79%, 65%);
+}
+.sunday{
+    height: 50px;
+   background-color:  hsl(10, 79%, 65%);
+}
+.day{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px ;
+    margin-left: -10px;
+
+}    
+p{
+    color:rgb(128, 112, 112);
+    font-size: 15px;
+}     
+.trai{
+    border: 0.1px solid hsl(27, 66%, 92%);
+}
+.foot{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    
+}
+h6{
+    display: flex;
+    justify-content:space-between;
+}
+.dies{
+    margin-top: -65px;
+    margin-right: -105px;
+    font-size: 15px;
+}
+.last{
+    margin-top: -30px;
+}
